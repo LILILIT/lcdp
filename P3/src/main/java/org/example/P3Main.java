@@ -38,7 +38,6 @@ public class P3Main {
         } else if ("selectOne".equals(sqlId)) {
             object=testMapper.selectOne();
         }
-        System.err.println("cestj2222");
         return object;
     }
 }
